@@ -10,7 +10,7 @@ A super simple go package that validates if a desired password is in the top 100
 validator := hunter2.New()
 
 validator.isCommon("hunter2") // => true
-validator.isNotCommon("3smVBU348%P8qp") // => true
+validator.isNotCommon("3smVBU348P8qp") // => true
 ```
 
 ## Acknowledgements

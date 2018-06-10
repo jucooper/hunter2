@@ -17,7 +17,7 @@ func TestIsCommon(t *testing.T) {
 }
 
 func TestIsNotCommon(t *testing.T) {
-	password := "3smVBU348%P8qp"
+	password := "3smVBU348P8qp"
 
 	res := hunter2.New().IsNotCommon(password)
 
