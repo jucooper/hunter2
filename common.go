@@ -6,11 +6,11 @@ import (
 	"os"
 )
 
-const defaultFilePath = "./passwords.txt"
+const defaultFilePath = "/passwords.txt"
 
 // Common ...
 type Common interface {
-	isCommon(password string) bool
+	IsCommon(password string) bool
 	IsNotCommon(password string) bool
 }
 
