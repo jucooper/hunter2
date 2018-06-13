@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// TODO: Fix this path for importing...
 const defaultFilePath = "./passwords.txt"
 
 // Common ...
